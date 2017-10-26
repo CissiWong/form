@@ -50,6 +50,4 @@ After completing this assignment, you should be comfortable in building forms in
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. Make the photos look nice on retina displays (high pixel density).
-1. Align the cards to the center of the page.
-1. Use box shadows to make the cards look like Polaroid pictures.
+1. Make the page responsive and work good for mobile and tablet. 
