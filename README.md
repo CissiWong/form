@@ -1,4 +1,4 @@
-# Sprint 1: Build a signup form
+# Sprint 1: Build a Signup Form
 
 Today's assignment is to build a signup form for a web service and style this according to how you want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account. 
 
@@ -7,11 +7,23 @@ Today's assignment is to build a signup form for a web service and style this ac
 1. Go online and find a page with a form that you like the looks of. Today you choose which page with a form you want to copy. Add the page that you are copying into the Readme file in your Github repo for this assignment.  
 
 1. Build a form that at a minimum contains: 
-* 2 x text fields
+* 2 x Text fields
 * 1 x A password field
 * 1 x Radio button
 * 1 x Checkbox
 * 1 x Submit button
+
+2. Set the form action to post to `https://httpbin.org/post` and the method set to `post`. This means that httpbin will mirror the response from the form. Try sumbitting your form and see if you can se the response on httpbin. 
+
+3. Let's poke around with your form and see what response you get for the following scenarios: 
+*
+*
+*
+*
+*
+
+4. How should you protect passwords? 
+
 
 1. Add an `in-focus` effect for when you click on the fields. Make the border or the background of the field change colour and add a glow effect. 
 
