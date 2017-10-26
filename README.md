@@ -9,27 +9,23 @@ Today's assignment is to build a signup form for a web service and style this ac
 1. Build a form that at a minimum contains: 
 * 2 x Text fields
 * 1 x A password field
-* 1 x Radio button
-* 1 x Checkbox
+* 1 x Set of radio buttons
+* 1 x Set of checkboxes
 * 1 x Submit button
 
-2. Set the form action to post to `https://httpbin.org/post` and the method set to `post`. This means that httpbin will mirror the response from the form. Try sumbitting your form and see if you can se the response on httpbin. 
+2. Set the form action to post to `https://httpbin.org/post` and the method set to `post`. This means that httpbin will show you how this response would look like if you sent this to a server. Try sumbitting your form and see if you can se the response on httpbin. 
 
 3. Let's poke around with your form and see what response you get for the following scenarios: 
-*
-*
-*
-*
-*
+* How does the textfields look like? 
+* What response do you get from the password field? 
+* Try select one or a few of the radio buttons.
+* Select none of the radio buttons.
+* Check the checkboxes. 
+* Leave the checkboxes unchecked. 
 
-4. How should you protect passwords? 
+4. Add an `in-focus` effect for when you click on the fields. Make the border or the background of the field change colour and add a glow effect. 
 
-
-1. Add an `in-focus` effect for when you click on the fields. Make the border or the background of the field change colour and add a glow effect. 
-
-1. Use xxxx to post your respponse to... Follow these instructions... 
-
-1. Style the rest of the page and the form so that it looks like the one you picked. 
+5. Style the rest of the page and the form so that it looks like the one you picked. 
 
 The `starter-code` folder containers a boilerplate html file and css. 
 
@@ -37,16 +33,16 @@ To complete this assignment, you need to fork this repository, make changes to y
 
 ### :books: Reading List
 
-* [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
-* [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [HTML Images](https://www.w3schools.com/html/html_images.asp)
-* [CSS Floats](https://www.w3schools.com/css/css_float.asp)
+* [W3Schools – GET vs. POST](https://www.w3schools.com/tags/ref_httpmethods.asp)
+* [W3Schools – About HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+* [W3Schools – Form Elements](https://www.w3schools.com/html/html_form_elements.asp)
+* [MDN – Styling HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
 
 ---
 
 ### :boom: Success!
 
-After completing this assignment, you should be comfortable using HTML tags to create layout (with divs, sections, etc). You should also be comfortable with using content tags to insert text and images. Finally, you should understand the effect of margins and padding in CSS.
+After completing this assignment, you should be comfortable in building forms in HTML and to send these with the `post`method. You will also know how the data you send looks like on the server side to later be able to use for example to create an account. You should also understand what a `post` method is and how to send information over http. key
 
 ---
 
