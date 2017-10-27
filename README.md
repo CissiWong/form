@@ -13,7 +13,7 @@ Today's assignment is to build a signup form for a web service and style this ac
 * 1 x Set of checkboxes
 * 1 x Submit button
 
-2. Set the form action to post to `https://httpbin.org/post` and the method set to `post`. This means that httpbin will show you how this response would look like if you sent this to a server. Try sumbitting your form and see if you can se the response on httpbin. 
+2. Set the form action to post to `https://httpbin.org/post` and the method set to `post`. This means that httpbin will show you how this response would look like if you sent this to a server. Try sumbitting your form and see if you can see the response on httpbin. 
 
 3. Let's poke around with your form and see what response you get for the following scenarios: 
 * How does the textfields look like? 
@@ -23,13 +23,13 @@ Today's assignment is to build a signup form for a web service and style this ac
 * Check the checkboxes. 
 * Leave the checkboxes unchecked. 
 
-4. Add an `in-focus` effect for when you click on the fields. Make the border or the background of the field change colour and add a glow effect. 
+4. Add a CSS `:focus` effect on the input tags. Make the border or the background of the field change colour and add a glow effect. 
 
 5. Style the rest of the page and the form so that it looks like the one you picked. 
 
 The `starter-code` folder containers a boilerplate html file and css. 
 
-To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the technigo one) for review. Don't forget to add a link to your inspiration for your form into the `readme-file`. 
+To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the technigo one) for review. Don't forget to add a link to your inspiration for your form into the `README.md` file in the starter code. 
 
 ### :books: Reading List
 
@@ -42,7 +42,7 @@ To complete this assignment, you need to fork this repository, make changes to y
 
 ### :boom: Success!
 
-After completing this assignment, you should be comfortable in building forms in HTML and to send these with the `post`method. You will also know how the data you send looks like on the server side to later be able to use for example to create an account. You should also understand what a `post` method is and how to send information over http. key
+After completing this assignment, you should be comfortable building forms in HTML and should understand what happens when the form is submitted with the POST method. You will also know how the data you send looks like on the server side to later be able to use for example to create an account.
 
 ---
 
@@ -50,4 +50,4 @@ After completing this assignment, you should be comfortable in building forms in
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. Make the page responsive and work good for mobile and tablet. 
+1. Make the page responsive and work well on mobile and tablet.
