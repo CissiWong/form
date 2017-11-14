@@ -28,7 +28,8 @@ body {
   padding: 0;
   width: 100%;
   height: auto;
-  background-image: url(./assignment-forms/code/style.css);
+  background: url("./images/dark_geometric.png") repeat;
+  b
 }
 
 section {
@@ -39,6 +40,10 @@ section {
     width: 33%;
     border: 3px solid black;
     padding: 20px;
+}
+
+.icon .one {
+  background: url("./images/number_1.png");
 }
 
 form {
@@ -58,7 +63,8 @@ input {
 }
 
 label {
-  justify-content: flex-start;
+  display: block;
+  text-align: left;
 }
 
 button {

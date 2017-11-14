@@ -12,87 +12,104 @@
       <section>
 
         <div class="box first">
+
+          <div class="icon one">
+          </div>
+
           <h1>account</h1>
+
             <form id="email" action="http://httpbin.org/anything" method="POST">
                 <h2>step 1</h2>
-                <h3>create your account</h3>
-                <label>
-                Name
-                  <input type="text" name="name" />
-                </label>
+                  <h3>create your account</h3>
+                    <label>
+                      Name
+                        <input type="text" name="name" required/>
+                      </label>
 
-                <label>
-                Email
-                  <input type="text" name="email" />
-                </label>
+                      <label>
+                        Email
+                      <input type="email" name="email" required/>
+                      </label>
 
-                <label>
-                Password
-                  <input type="text" name="email" />
-                </label>
+                      <label>
+                        Password
+                      <input type="password" name="password"required />
+                      </label>
+
+                      <button>
+                        submit
+                      </button>
 
             </form>
         </div>
 
 
         <div class="box second">
-          <h1>details</h1>
-          <form id="adress" action="http://httpbin.org/anything" method="POST">
-            <h2>step 2</h2>
-            <h3>account details</h3>
-            <label>
-            Adress
-                <input type="text" name="adress" />
-            </label>
+          <div class="icon two">
+          </div>
 
-            <label>
-            Zip
-                <input type="text" name="zip" />
-            </label>
+            <h1>details</h1>
+              <form id="adress" action="http://httpbin.org/anything" method="POST">
+                  <h2>step 2</h2>
+                    <h3>account details</h3>
+                      <label>
+                      Adress
+                        <input type="text" name="adress" />
+                      </label>
 
-            <label>
-                <select name="Country">
-                  <option value="sweden">Sweden</option>
-                  <option value="denmark">Denmark</option>
-                  <option value="norway">Norway</option>
-                  <option value="finland">Finland</option>
-                </select>
-            </label>
+                        <label>
+                        Zip
+                          <input type="number" name="zip" />
+                        </label>
 
-            <p>I live in:</p>
-              <label>
-                A house
-                  <input type="radio" name="radio" />
-              </label>
-              <label>
-                An apartment
-                  <input type="radio" name="radio" />
-              </label>
+                          <label>
+                              <select name="Country">
+                                <option value="sweden">Sweden</option>
+                                <option value="denmark">Denmark</option>
+                                <option value="norway">Norway</option>
+                                <option value="finland">Finland</option>
+                              </select>
+                          </label>
 
+                          <p>I live in:</p>
+                            <label>
+                            A house
+                                <input type="radio" name="radio" />
+                            </label>
+                              <label>
+                              An apartment
+                                <input type="radio" name="radio" />
+                              </label>
+                                <button>
+                                  submit
+                                </button>
 
-          </form>
+                          </form>
+                        </div>
+
+      <div class="box third">
+          <div class="icon third">
+          </div>
+
+            <h1>confirm</h1>
+              <form id="terms" action="http://httpbin.org/anything" method="POST">
+
+                  <h2>step 3</h2>
+                    <h3>Terms of Service</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <label>
+                      I agree
+                        <input type="checkbox" name="checkbox" />
+                      </label>
+
+                      <button>
+                      submit
+                    </button>
+
+              </form>
         </div>
 
-        <div class="box third">
-
-          <h1>confirm</h1>
-          <form id="terms" action="http://httpbin.org/anything" method="POST">
-            <h2>step 3</h2>
-            <h3>Terms of Service</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <label>
-            I agree
-            <input type="checkbox" name="checkbox" />
-            </label>
-
-          <button>
-            SUBMIT
-          </button>
-
-          </form>
-        </div>
-
-      </section>
+    </section>
 
   </body>
 </html>
