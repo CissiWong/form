@@ -1,7 +1,41 @@
-html
+* {
+  box-sizing: border-box;
+}
+
+
+h1 h2 h3 p {
+
+   font-family: 'Roboto', sans-serif;
+   color: #2d2d2d;
+}
 
 
 
 body {
-  background: 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-image: url(./assignment-forms/code/style.css);
+}
+
+section {
+  display: flex;
+
+
+}
+
+.box {
+    width: 33%;
+    border: 3px solid black;
+    padding: 20px;
+
+
+}
+
+form {
+  background: white;
+  padding: 25px;
+  border: 1px solid black;
+
 }
