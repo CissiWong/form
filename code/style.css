@@ -23,7 +23,6 @@ section {
   align-content: center;
   background: url("./images/dark_geometric.png") repeat;
   border: 8px solid black;
-
 }
 
 
@@ -86,20 +85,24 @@ form {
   background: white;
   flex-wrap: wrap;
   padding: 25px;
-  border: 1px solid black;
   font-family: 'Roboto', sans-serif;
 }
 
 input {
-  margin: 5px;
+  width: 90%;
+  margin: auto;
   padding: 5px;
   display: block;
   text-align: left;
+
 }
 
 label {
   display: block;
   text-align: left;
+  margin-top: 10px;
+  flex-direction: column;
+
 }
 
 button {
