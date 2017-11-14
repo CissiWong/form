@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300" />
     <title>Form assignment solution</title>
   </head>
   <body>
@@ -70,21 +70,17 @@
                               </select>
                           </label>
 
-                          <p>I live in:</p>
-                            <label>
-                            A house
-                                <input type="radio" name="radio" />
-                            </label>
-                              <label>
-                              An apartment
-                                <input type="radio" name="radio" />
-                              </label>
-                                <button>
-                                  submit
-                                </button>
+            <p>I live in:</p>
+            <div id="radio">
+                <label><input type="radio" name="radio" value="A house"/>A house</label>
+                <label><input type="radio" name="radio" value="An apartment"/>An apartment</label>
+           </div>
+                <button>
+                  submit
+                </button>
 
-                          </form>
-                        </div>
+          </form>
+      </div>
 
       <div class="box" id="third">
           <div class="icon" id="three">
