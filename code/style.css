@@ -22,6 +22,29 @@ section {
   border: 8px solid black;
 }
 
+.box {
+    width: 33%;
+    padding: 20px;
+    flex-direction: column;
+    /*align-items: stretch;*/
+}
+
+form {
+  width: 100%;
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  /*display: block;*/
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
 h1, h2, h3, p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -44,11 +67,6 @@ p {
   font-size: 14px;
 }
 
-
-.box {
-    width: 33%;
-    padding: 20px;
-}
 
 #first {
   border-right: 8px solid black;
@@ -76,25 +94,11 @@ p {
   background: url("./images/icon_three.png") no-repeat center;
 }
 
-form {
-  width: 100%;
-  background: white;
-  padding: 25px;
-  border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
-}
-
-label {
-  /*display: block;*/
-  text-align: left;
-  margin-top: 10px;
-  font-size: 14px;
-}
 
 input {
-  display: block;
-  width: 100%;
-  margin: auto;
+  display: inline;
+  /*width: 100%;
+  margin: auto;*/
   padding: 5px;
 }
 
@@ -106,12 +110,17 @@ input, #radio {
 
 button {
     width: 100%;
-    display: block;
+    /*display: block;*/
     font-family: 'Roboto', sans-serif;
+    font: 14px uppercase white;
     background: #00e79e;
     box-shadow: none;
     padding: 10px;
-    margin: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
 }
 
 /*

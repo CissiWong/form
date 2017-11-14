@@ -12,7 +12,6 @@
       <section>
 
         <div class="box" id="first">
-
           <div class="icon" id="one">
           </div>
             <h1>Account</h1>
@@ -20,9 +19,10 @@
             <form id="email" action="http://httpbin.org/anything" method="POST">
                 <h2>step 1</h2>
                   <h3>create your account</h3>
-                    <label>
+
+                      <label>
                       Name
-                        <input type="text" name="name" required/>
+                      <input type="text" name="name" required/>
                       </label>
 
                       <label>
@@ -31,14 +31,13 @@
                       </label>
 
                       <label>
-                        Password
+                      Password
                       <input type="password" name="password"required />
                       </label>
 
                       <button>
                         submit
                       </button>
-
             </form>
         </div>
 
@@ -53,12 +52,12 @@
                     <h3>account details</h3>
                       <label>
                       Adress
-                        <input type="text" name="adress" />
+                      <input type="text" name="adress" />
                       </label>
 
                         <label>
                         Zip
-                          <input type="number" name="zip" />
+                        <input type="number" name="zip" />
                         </label>
 
                           <label>
@@ -72,12 +71,17 @@
 
             <p>I live in:</p>
             <div id="radio">
-                <label><input type="radio" name="radio" value="A house"/>A house</label>
-                <label><input type="radio" name="radio" value="An apartment"/>An apartment</label>
-           </div>
-                <button>
-                  submit
-                </button>
+
+                <label>A house
+                <input type="radio" name="radio" value="A house"/>
+                </label>
+
+                <label>An apartment
+                <input type="radio" name="radio" value="An apartment"/>
+                </label>
+
+                <button>submit</button>
+            </div>
 
           </form>
       </div>
@@ -93,7 +97,7 @@
                     <h3>Terms of Service</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       <label>
-                      I agree
+                      I accept these terms
                         <input type="checkbox" name="checkbox" />
                       </label>
 
