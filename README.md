@@ -60,3 +60,5 @@ Done with the main task? Here's some ideas for things to continue with:
 
 1. Make the page responsive and work well on mobile and tablet.
 2. Add a focus effect on the input tags (Using the CSS `:focus` pseudo-selector). Make the border or the background of the field change colour and add a glow effect.
+3. Make the fields use appropriate input types and validations.
+4. Try to make the submit button look "raised up", and on click, look like its not raised up (like [this](https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2012/01/cssbuttons_021.jpg), but the design is up to you)
