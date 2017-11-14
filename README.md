@@ -13,7 +13,7 @@ Today's assignment is to build a signup form for a web service and style this ac
   * 1 x Set of checkboxes
   * 1 x Submit button
 
-2. Set the form action to post to `https://httpbin.org/post` and the <form> method set to `post`. This means that httpbin will show you how this response would look like if you sent this to a server. Try sumbitting your form and see if you can see the response on httpbin.
+2. Set the form action to post to `https://httpbin.org/anything` and the <form> method set to `post`. This means that httpbin will show you how this response would look like if you sent this to a server. Try sumbitting your form and see if you can see the response on httpbin.
 
 3. Try submitting your form to see how the response from httpbin looks:
   * How does the textfields look like?
