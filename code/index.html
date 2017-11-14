@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form assignment solution</title>
+  </head>
+  <body>
+
+      <section>
+
+        <div class="box first">
+            <form id="email" action="http://httpbin.org/anything" method="POST">
+
+                <label>
+                Name
+                  <input type="text" name="name" />
+                </label>
+
+                <label>
+                Email
+                  <input type="text" name="email" />
+                </label>
+
+                <label>
+                Password
+                  <input type="text" name="email" />
+                </label>
+
+            </form>
+        </div>
+
+
+        <div class="box second">
+          <form id="adress" action="http://httpbin.org/anything" method="POST">
+
+            <label>
+            Adress
+                <input type="text" name="adress" />
+            </label>
+
+            <label>
+            Zip
+                <input type="text" name="zip" />
+            </label>
+
+            <label>
+                <select name="Country">
+                  <option value="sweden">Sweden</option>
+                  <option value="denmark">Denmark</option>
+                  <option value="norway">Norway</option>
+                  <option value="finland">Finland</option>
+                </select>
+            </label>
+
+            <label>
+            I live in
+                <input type="radio" name="radio" value="a house" />
+                <input type="radio" name="radio" value="an apartment" />
+            </label>
+
+            <label>
+            Send me daily email reports
+                <input type="checkbox" name="checkbox" />
+            </label>
+
+          </form>
+        </div>
+
+        <div class="box third">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <form id="terms" action="http://httpbin.org/anything" method="POST">
+
+            <label>
+            I agree
+            <input type="checkbox" name="checkbox" />
+            </label>
+
+          <button>
+            SUBMIT
+          </button>
+
+          </form>
+        </div>
+
+      </section>
+
+  </body>
+</html>
